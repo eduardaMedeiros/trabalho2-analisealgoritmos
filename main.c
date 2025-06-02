@@ -163,7 +163,7 @@ void ordenacao_topologica(int n, Vertice grafo[]) {
     } else {
         printf("Ordenação Topológica:\n");
         for (int i = 0; i < k; i++) {
-            printf("%d ", ordem_topologica[i] + 1);  // +1 para exibir a partir de 1
+            printf("%d ", ordem_topologica[i] + 1); 
         }
         printf("\n\n");
     }
